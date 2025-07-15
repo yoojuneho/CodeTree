@@ -1,3 +1,6 @@
-N = int(input("N: "))
+N = int(input(""))
 
-print(f"Your score is {N} point")
+while N <= 1 and N >= 1000:
+    N = int(input("N: "))
+
+print(f"Your score is {N} point.")
