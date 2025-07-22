@@ -21,7 +21,7 @@ for _ in range(N):
         lst.append(rtmp)
         sign = 1
 
-for i in range(4):
-    for j in range(4):
+for i in range(N):
+    for j in range(N):
         print(lst[i][j], end="")
     print()
