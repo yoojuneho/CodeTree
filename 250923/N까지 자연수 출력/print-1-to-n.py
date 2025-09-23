@@ -1,5 +1,5 @@
 n = int(input())
-i = 0
+i = 1
 
 while i < n+1:
     print(i, end=' ')
